@@ -25,7 +25,7 @@ function Todo2() {
     }
     setinputValue("");
     console.log(todoList);
-  }
+  } 
 
   function deleteFunc(index) {
     console.log("deleted item");
