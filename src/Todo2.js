@@ -44,10 +44,14 @@ function Todo2() {
     setEditinput(true);
   }
 
+  // <div class="col-auto">
+  //   <label for="inputPassword2" class="visually-hidden">Password</label>
+  //   <input type="password" class="form-control" id="inputPassword2" placeholder="Password"/>
+  // </div>
   return (
     <>
       <div className="container fluid">
-        <h1 className="text-center mt-5 display-4 fw-bold ">
+        <h1 className="text-center mt-5 display-6 fw-bold ">
           Write Your Todos
         </h1>
         <p className="text-center fw-bold text-success">Make Your Day Easy</p>
@@ -61,7 +65,7 @@ function Todo2() {
           value={inputValue}
         />
         <button
-          className="btn btn-primary mt-3"
+          className="d-grid gap-2 btn btn-primary mt-3 "
           type="button"
           onClick={addFunc}
         >
